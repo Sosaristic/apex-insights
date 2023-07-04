@@ -11,7 +11,7 @@ export default function AuthenticationLayout() {
             <img src={Discussion} alt="" width={"450"} height={"auto"}/>
         </div>
       </div>
-      <div className="lg:w-[45%]  py-4 px-4 lg:px-8 flex flex-col">
+      <div className="lg:w-[45%] w-full py-4 px-4 lg:px-8 flex flex-col">
         <div className="flex items-center font-righteous mb-4">
             <img src={Logo} alt="" width={"50"} height={"50"}/>
           <span className="text-[1.5rem]">Apex Insights</span>
