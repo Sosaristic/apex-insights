@@ -28,7 +28,7 @@ export default function Login() {
         <TextField
           type={"telephone"}
           startIcon={ <CountryFlag callCode={formik.values.phone}/>}
-          placeholder={"+234, +233, +91"}
+          placeholder={"+1, +90, +234"}
           label={"Phone No"}
           id={"phone"}
           name={"phone"}

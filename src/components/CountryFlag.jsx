@@ -9,7 +9,7 @@ const [code, setCode] = useState("")
 
 useEffect(()=>{
     const testCode = callCode?.slice(0, 4)
-    if(testCode.length >=3){
+    if(testCode.length >=2){
         const code = CountryList.findByDialCode(testCode)
         setCode(code[0])
     }

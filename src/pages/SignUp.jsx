@@ -28,7 +28,7 @@ export default function SignUp() {
           id={"phone"}
           value={formik.values.phone}
           onChange={formik.handleChange}
-          placeholder={"+234, +233, +91"}
+          placeholder={"+1, +90, +234"}
           startIcon={<CountryFlag callCode={formik.values.phone} />}
           error={formik.errors.phone}
         />
